@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.logo p{
+    font-size: 0.7em;
+}
+.logo img{
+    width: 20%;
+    clip-path: circle(50%);
+    margin: 0px 5px;
+}
+.lista{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lista li{
+    margin: 0px 3px;
+}
+.lista li a{
+    text-decoration: none;
+    margin:5px;
+    font-size: 0.6em;
+}
+.contenedor input{
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.6em;
+    border:2px solid rgba(0, 0, 0, 0.087);
+}
