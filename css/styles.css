@@ -51,3 +51,21 @@ nav{
     font-size: 0.6em;
     border:2px solid rgba(0, 0, 0, 0.087);
 }
+.principal{
+    display: flex;
+}
+.caja {
+    width: 50%;
+}
+.dos{
+    display: flex;
+    flex-direction: column;
+}
+.img-1{
+    position: relative;
+}
+.img-2{
+    position: absolute;
+    max-width: 28%;
+    margin:auto;
+}
