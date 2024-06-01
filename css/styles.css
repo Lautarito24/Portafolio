@@ -6,6 +6,7 @@ body{
 }
 header{
     width: 100%;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -19,13 +20,19 @@ nav{
     align-items: center;
     margin: 5px;
 }
+.logo{
+    display: flex;
+    justify-content: start;
+}
 .logo p{
     font-size: 0.7em;
+    font-weight: bold;
 }
 .logo img{
-    width: 20%;
-    clip-path: circle(50%);
+    width: 40px;
+    clip-path: circle(60%);
     margin: 0px 5px;
+    margin-left: 40px;
 }
 .lista{
     width: 40%;
@@ -53,19 +60,88 @@ nav{
 }
 .principal{
     display: flex;
+    height: 80% ;
 }
-.caja {
+.uno{
     width: 50%;
-}
-.dos{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
 }
-.img-1{
-    position: relative;
+.uno h1{
+    font-size: 1.5em;
+    width: 80%;
+    margin: 5px;
 }
-.img-2{
-    position: absolute;
-    max-width: 28%;
-    margin:auto;
+.uno p{
+    width: 80%;
+    margin: 0;
+    font-size: 0.6em;
+}
+.dos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 70%;
+}
+.botones{
+    width: 80%;
+}
+.hablemos{
+    border-radius: 10px;
+    font-size: 0.5em;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: rgba(4, 0, 255, 0.533);
+}
+.hablemos img{
+    width: 12px;
+    margin: 0px 10px;
+}
+.portafolio{
+    border-radius: 5px;
+    font-size: 0.6em;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.portafolio img{
+    width: 10px;
+    margin: 0px 5px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.redes p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+}
+.iconos-redes{
+    display: flex;
+    align-items: center;
+}
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.154);
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+.iconos-redes img{
+    width: 20px;
+    margin: 0px 10px;
+    padding: 10px;
 }
