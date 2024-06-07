@@ -101,10 +101,11 @@ nav{
     background-color: rgba(4, 0, 255, 0.533);
     transition-duration: 0.5s;
     margin: 5px;
+    text-decoration: none;
 }
 .hablemos:hover{
     background-color: rgb(251, 190, 35);
-    cursor: grab;
+    cursor: pointer;
 }
 .hablemos img{
     width: 12px;
@@ -119,11 +120,13 @@ nav{
     background-color: white;
     font-weight: bold;
     transition-duration: 0.5s;
+    margin:5px;
+    text-decoration: none;
 }
 .portafolio:hover{
     background-color:#FCDA69;
     border-radius: 10px;
-    cursor: grab;
+    cursor: pointer;
 }
 .portafolio img{
     width: 10px;
@@ -147,14 +150,19 @@ nav{
     justify-content: start;
     width: 50%;
 }
-.div-img{
+.iconos-redes a{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(128, 128, 128, 0.154);
     border-radius: 50%;
     margin: 0px 5px;
+    transition: background-color 0.5s;
 }
+.iconos-redes a:hover{
+    background-color: #8873f0;
+}
+
 .iconos-redes img{
     width: 20px;
     padding: 10px;
@@ -228,7 +236,7 @@ nav{
     width: 95%;
     margin-bottom: 10px;
 }
-.img button{
+.img a{
     display: flex;
     background-color: blueviolet;
     padding: 0;
@@ -237,9 +245,8 @@ nav{
     border: none;
     transition: background 0.5s;
 }
-.img button:hover{
+.img a:hover{
     background-color: blue;
-    cursor: grab;
 }
 .nombres img{
     width: 10px;
@@ -394,7 +401,7 @@ nav{
 }
 .title h4{
     margin: 0;
-    width: 90%;
+    width: 80%;
 }
 .title a{
     display: flex;
@@ -407,7 +414,7 @@ nav{
     background-color: blueviolet;
 }
 .title a img{
-    width: 7px;
+    width: 8px;
     margin: 0;
 }
 .proyectos p{
