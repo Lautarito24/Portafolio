@@ -435,3 +435,71 @@ nav{
 .proyectos .sello-dos{
     width: 70%;
 }
+/*-----------------------------------FOTTER-----------------------------------------------*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contac{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8873f0;
+}
+.contac h2{
+    font-size: 1.8em;
+    width: 65%;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 65%;
+    text-align: start;
+    border-top: 2px solid black;
+    padding: 20px 0px;
+}
+.mensaje{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.containuno{
+    width: 100%;
+}
+.email a img{
+    width: 25px;
+}
+.email a {
+    text-decoration: none;
+}
+.email a p{
+    font-size: 0.5em;
+    color: black;
+    margin: 3px 0px;
+}
+.email a .correo{
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.hi{
+    width: 50%;
+    background-color: rgb(133, 142, 149);
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 2px solid black;
+}
+.copyright p{
+    font-size: 0.35em;
+    padding: 10px;
+}
