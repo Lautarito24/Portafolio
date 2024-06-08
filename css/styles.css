@@ -439,6 +439,7 @@ nav{
 footer{
     display: flex;
     flex-wrap: wrap;
+    height: 70vh;
 }
 .contac{
     width: 50%;
@@ -447,6 +448,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: #8873f0;
+    padding: 20px 0px;
 }
 .contac h2{
     font-size: 1.8em;
@@ -491,6 +493,13 @@ footer{
 .hi{
     width: 50%;
     background-color: rgb(133, 142, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(30%);
+}
+.hi div a img{
+    width: 20px;
 }
 .copyright{
     width: 100%;
