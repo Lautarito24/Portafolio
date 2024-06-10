@@ -439,15 +439,16 @@ nav{
 footer{
     display: flex;
     flex-wrap: wrap;
-    height: 70vh;
+    justify-content: center;
+    height: 100vh;
 }
 .contac{
     width: 50%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #8873f0;
     padding: 20px 0px;
 }
 .contac h2{
@@ -492,23 +493,22 @@ footer{
 
 .hi{
     width: 50%;
-    background-color: rgb(133, 142, 149);
     display: flex;
     align-items: center;
     justify-content: center;
-    clip-path: circle(30%);
 }
-.hi div a img{
-    width: 20px;
+.hi img{
+    width: 70%;
 }
 .copyright{
-    width: 100%;
+    width: 90%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
 }
 .copyright p{
     font-size: 0.35em;
     padding: 10px;
+    margin: 0;
 }
