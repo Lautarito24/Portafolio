@@ -1,0 +1,121 @@
+@media screen and (max-width:900px){
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hablemos{
+        width: 43%;
+    }
+    .portafolio{
+        width: 43%;
+    }
+    .portfolio{
+        width: 40%;
+        flex-wrap: none;
+    }
+
+}
+@media screen and (max-width:650px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .logo p {
+        margin: 0;
+    }
+    .contenedor input{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .uno{
+        justify-content: space-evenly;
+    }
+    .uno h1{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .uno p{
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .botones{
+        align-items: center;
+        justify-content: center;
+        /* padding: 20px 0px; */
+    }
+    .hablemos{
+        text-align: center;
+        width: 30%;
+        font-size: 0.5em;
+    }
+    .portafolio{
+        text-align: center;
+        width: 30%;
+        font-size: 0.5em;
+    }
+    .caja-dos{
+        height: 50%;
+        width: 50%;
+        padding: 20px;
+        display: none;
+    }
+    .habilidades{
+        flex-direction: column;
+    }
+    .portfolio{
+        flex-direction: column;
+    }
+    .proyectos{
+        padding: 30px 0px;
+    }
+    .dos{
+        margin: 20px 0px;
+        margin: 0px;
+    }
+    .tres{
+        margin: 0;
+    }
+    .sello-dos{
+        width: 5%;
+        display: none;
+    }
+    .contactos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hi{
+        padding-bottom: 5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-parrafo{
+        align-items: center;
+    }
+    .titulo-parrafo h2{
+        width: 100%;
+        text-align: center;
+    }
+    .titulo-parrafo p{
+        width: 100%;!important
+    }
+    .servicios-uno{
+        flex-direction: row; 
+        margin: 10px 0px;
+    }
+    .sello{
+        display: flex;
+        justify-content: end;
+    }
+}

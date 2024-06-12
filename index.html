@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portafolio</title>
 </head>
@@ -17,10 +18,10 @@
                 </p>
             </div>
             <ul class="lista">
-                <li class="items"><a href="">Nosotros</a></li>
-                <li class="items"><a href="">Servicios</a></li>
-                <li class="items"><a href="">Portafolio</a></li>
-                <li class="items"><a href="">Contacto</a></li>
+                <li class="items"><a href="#hero">Nosotros</a></li>
+                <li class="items"><a href="#servicios">Servicios</a></li>
+                <li class="items"><a href="#portfolio">Portafolio</a></li>
+                <li class="items"><a href="#contacto">Contacto</a></li>
             </ul>
             <div class="contenedor">
                 <input type="text" placeholder="Busqueda" name="buscador">
@@ -28,7 +29,7 @@
         </nav>    
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="caja uno">
                 <h1>
                     Nosotros tenemos Experiencia en el diseño
@@ -37,10 +38,10 @@
                     Hola soy un diseñador UI/UX Creando un diseño de interfaz audaz y valiente para empresas de todo el mundo.
                 </p>
                 <div class="botones">
-                    <a href="#" class="hablemos">
+                    <a href="https://wa.me//3884699087" class="hablemos">
                         Hablemos <img src="img/enviar.png" alt="">
                     </a>
-                    <a href="#" class="portafolio">
+                    <a href="#portfolio" class="portafolio">
                         Portafolio <img src="img/flecha-diagonal.png" alt="">
                     </a>
                 </div>
@@ -55,12 +56,12 @@
                     </div>
                 </div>
             </div>
-            <div class="caja dos">
+            <div class="caja-dos">
                 <img src="img/original-1-Photoroom.png" alt="">
 
             </div>
         </section>
-        <section class="servicios">
+        <section class="servicios" id="servicios">
             <article class="servicios-uno">
                 <div class="titulo-parrafo">
                     <h2>
@@ -104,7 +105,7 @@
                 </div>
             </article>
         </section>
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
             <article class="skills">
                     <h3>
                         Habilidades & <br> Experiencia
@@ -197,7 +198,7 @@
                 </div>
             </article>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <article class="proyectos">
                 <h2>
                     Ultimos Proyectos
@@ -236,31 +237,34 @@
             </article>
         </section>
     </main>
-    <footer>
-        <article class="contac">
-            <h2>Hablemos de tus Proyectos</h2>
-            <div class="email">
-                <div>
-                    <a href="" class="mensaje"><img src="img/mensaje-de-texto.png" alt=""></a>
+    <footer id="contacto">
+        <div class="contactos">
+            <article class="contac">
+                <h2>Hablemos de tus Proyectos</h2>
+                <div class="email">
+                    <div>
+                        <a href="#" class="mensaje"><img src="img/mensaje-de-texto.png" alt=""></a>
+                    </div>
+                    <a href="mailto:lautariiitoo.freelancer@gmail.com">
+                        <p>Email</p>
+                        <p class="correo">lautariitoo.freelancer@gmail.com</p>
+                    </a>
                 </div>
-                <a href="" class="conteinuno">
-                    <p>Email</p>
-                    <p class="correo">lautariitoo.freelancer@gmail.com</p>
-                </a>
-            </div>
-            <div class="email location">
-                <div>
-                    <a href="" class="mensaje"><img src="img/punto-de-mira-de-ubicacion.png" alt=""></a>
+                <div class="email location">
+                    <div>
+                        <a href="#" class="mensaje"><img src="img/punto-de-mira-de-ubicacion.png" alt=""></a>
+                    </div>
+                    <a href="#">
+                        <p>Location</p>
+                        <p class="correo">Provincia de Tucuman.San Miguel de Tucuman Zona Norte</p>
+                    </a>
                 </div>
-                <a href="">
-                    <p>Location</p>
-                    <p class="correo">Provincia de Tucuman.San Miguel de Tucuman Zona Norte</p>
-                </a>
-            </div>
-        </article>
-        <article class="hi">
-            <img src="img/circulo.jpg" alt="">
-        </article>
+                </article>
+            <article class="hi">
+                <img src="img/circulo.jpg" alt="">
+            </article>
+        </div>
+
         <article class="copyright">
             <p>&copy;2024 Todos los Derechos Reservados</p>
             <p>Diseñado por Lautaro</p>

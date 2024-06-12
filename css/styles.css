@@ -4,6 +4,9 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     width: 100%;
 }
@@ -50,6 +53,9 @@ nav{
     margin:5px;
     font-size: 0.6em;
 }
+.lista li a:hover{
+    color: rgba(4, 0, 255, 0.533);
+}
 .contenedor input{
     width: 50%;
     border-radius: 5px;
@@ -60,10 +66,9 @@ nav{
 /*-------------------------------------------------HERO---------------------------------------*/
 .hero{
     display: flex;
-    height: 80vh;
+    height: 85vh;
 }
 .uno{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -71,30 +76,29 @@ nav{
 }
 .uno h1{
     font-size: 1.65em;
-    width: 60%;
+    width: 80%;
     margin: 5px;
 }
 .uno p{
-    width: 60%;
+    width: 80%;
     margin: 0;
     font-size: 0.65em;
 }
-.dos{
-    width: 50%;
+.caja-dos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.dos img{
-    max-width: 60%;
+.caja-dos img{
+    width: 50%;
 }
 .botones{
-    width: 60%;
+    width: 80%;
 }
 .hablemos{
     border-radius: 10px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     padding: 10px;
     color: white;
     border: none;
@@ -108,8 +112,8 @@ nav{
     cursor: pointer;
 }
 .hablemos img{
-    width: 12px;
-    margin: 0px 10px;
+    width: 12px; 
+    margin-left: 5px;
 }
 .portafolio{
     border-radius: 5px;
@@ -129,14 +133,14 @@ nav{
     cursor: pointer;
 }
 .portafolio img{
-    width: 10px;
-    margin: 0px 5px;
+    width: 9px;
+    margin-left:5px;
 }
 .redes{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 80%;
 }
 .redes p{
     width: 50%;
@@ -160,7 +164,7 @@ nav{
     transition: background-color 0.5s;
 }
 .iconos-redes a:hover{
-    background-color: #8873f0;
+    background-color: rgb(251, 190, 35);
 }
 
 .iconos-redes img{
@@ -172,29 +176,29 @@ nav{
     background-color: #FCDA69;
     display: flex;
     width: 100%;
-    height: 100vh;
+    padding: 5% 0%;
 }
 .servicios-uno{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    justify-content: center;
+    padding: 20px;
 }
 .titulo-parrafo{
-    width: 80%;
     height: 70%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 5%;
+    padding: 20px;
 }
 .titulo-parrafo h2{
     font-size: 1.6em;
-    width: 80%;
+    margin: 0px;
 }
 .titulo-parrafo p{
-    font-size: 0.65em;
-    width: 60%;
+    font-size: 0.7em;
 }
 .sello{
     width: 80%;
@@ -203,7 +207,6 @@ nav{
     width: 100px;
 }
 .servicios-dos{
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -255,24 +258,22 @@ nav{
 /*------------------------------------------HABILIDADES----------------------------------------------*/
 .habilidades{
     display: flex;
-    height: 100vh;
     margin: 0;
 }
 .skills{
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin: 8% 0px;
 }
 .skills h3{
     width: 80%;
     margin: 0;
-    margin-top: 40px;
 }
 .skills p{
     width: 80%;;
-    margin: 0;
+    margin-top: 10px;
     margin-bottom: 30px;
     font-size: 0.7em;
 }
@@ -286,7 +287,7 @@ nav{
     max-width: 90%;
     height: 15%;
     display: flex;
-    margin: 0;
+    margin: 10px 0px;
 }
 .expe-uno{
     width: 35%;
@@ -312,7 +313,6 @@ nav{
 }
 
 .experiencia{
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -367,24 +367,18 @@ nav{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
     background-color: #FCDA69;
     margin: 0;
+    padding: 10% 0px;
 }
 .proyectos{
     display: flex;
     flex-direction:column ;
     justify-content: center;
     align-items: center;
-    width: 30%;
     margin: 0;
 }
-.dos{
-    width: 35%;
-    margin-bottom: 50px;
-}
 .tres{
-    margin-top: 80px;
     justify-content: start;
 }
 .proyectos h2{
@@ -407,15 +401,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5%;
-    border-radius: 50%;
-    margin: 0px 5px;
-    padding: 2.8%;
-    background-color: blueviolet;
+    width: 8%;
 }
 .title a img{
-    width: 8px;
-    margin: 0;
+    width: 25%;
+    padding: 10px;
+    /* margin: 0; */
+    clip-path:circle(50%) ;
+    background-color: blueviolet;
+}
+.Hosting{
+    width: 25%;
 }
 .proyectos p{
     margin: 0;
@@ -433,18 +429,20 @@ nav{
     margin-top: 40px;
 }
 .proyectos .sello-dos{
-    width: 70%;
+    max-width: 40%;
 }
 /*-----------------------------------FOTTER-----------------------------------------------*/
 footer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0px;
+}
+.contactos{
+    display: flex;
+    padding: 20px 0px;
 }
 .contac{
-    width: 50%;
-    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -459,7 +457,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 65%;
+    width: 80%;
     text-align: start;
     border-top: 2px solid black;
     padding: 20px 0px;
@@ -471,9 +469,6 @@ footer{
     padding: 10px;
     border-radius: 50%;
     margin-right: 10px;
-}
-.containuno{
-    width: 100%;
 }
 .email a img{
     width: 25px;
@@ -487,18 +482,17 @@ footer{
     margin: 3px 0px;
 }
 .email a .correo{
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: bold;
 }
 
 .hi{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .hi img{
-    width: 70%;
+    width: 65%;
 }
 .copyright{
     width: 90%;
