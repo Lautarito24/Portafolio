@@ -3,6 +3,7 @@
 ¡Bienvenido a mi portafolio Soy un desarrollador apasionado por crear experiencias de usuario intuitivas y visualmente atractivas.
 Aquí encontrarás una selección de mis proyectos más destacados y la gama de servicios que ofrezco.
 En la sección de :
+
 --Nosotros: 
 Encontrarás una descripción del equipo, su misión, visión y valores.
 Se destacan los objetivos y la filosofía que guían su trabajo, así como la historia de cómo se formó la organización y su trayectoria a lo largo del tiempo.
