@@ -27,7 +27,7 @@ nav{
     justify-content: start;
 }
 .logo p{
-    font-size: 0.7em;
+    font-size: 1rem;
     font-weight: bold;
 }
 .logo img{
@@ -51,7 +51,8 @@ nav{
 .lista li a{
     text-decoration: none;
     margin:5px;
-    font-size: 0.6em;
+    font-size: 0.95rem;
+    color: black;
 }
 .lista li a:hover{
     color: rgba(4, 0, 255, 0.533);
@@ -60,7 +61,7 @@ nav{
     width: 50%;
     border-radius: 5px;
     padding: 5px;
-    font-size: 0.6em;
+    font-size: 1rem;
     border:2px solid rgba(0, 0, 0, 0.087);
 }
 /*-------------------------------------------------HERO---------------------------------------*/
@@ -75,14 +76,14 @@ nav{
     flex-direction: column;
 }
 .uno h1{
-    font-size: 1.65em;
+    font-size: 2rem;
     width: 80%;
     margin: 5px;
 }
 .uno p{
     width: 80%;
     margin: 0;
-    font-size: 0.65em;
+    font-size: 1rem;
 }
 .caja-dos{
     display: flex;
@@ -98,7 +99,7 @@ nav{
 }
 .hablemos{
     border-radius: 10px;
-    font-size: 0.6em;
+    font-size: 1rem;
     padding: 10px;
     color: white;
     border: none;
@@ -117,7 +118,7 @@ nav{
 }
 .portafolio{
     border-radius: 5px;
-    font-size: 0.7em;
+    font-size: 1rem;
     padding: 10px;
     color: rgb(0, 0, 0);
     border: none;
@@ -146,7 +147,7 @@ nav{
     width: 50%;
     margin: 0;
     padding: 0;
-    font-size: 0.6em;
+    font-size: 1ren;
 }
 .iconos-redes{
     display: flex;
@@ -194,11 +195,11 @@ nav{
     padding: 20px;
 }
 .titulo-parrafo h2{
-    font-size: 1.6em;
+    font-size: 2rem;
     margin: 0px;
 }
 .titulo-parrafo p{
-    font-size: 0.7em;
+    font-size: 1rem;
 }
 .sello{
     width: 80%;
@@ -222,7 +223,7 @@ nav{
     margin-right: 10px;
 }
 .nombres h3{
-    font-size: 1em;
+    font-size: 1.3em;
     width: 80%;
     margin: 0;
 }
@@ -270,18 +271,20 @@ nav{
 .skills h3{
     width: 80%;
     margin: 0;
+    font-size: 2rem;
 }
 .skills p{
     width: 80%;;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 0.7em;
+    font-size: 1rem;
 }
 .skills h4{
     width: 80%;
     text-align: start;
     margin:0;
     margin-bottom: 5px;
+    font-size: 1rem;
 }
 .hability-icons{
     max-width: 90%;
@@ -306,7 +309,7 @@ nav{
 .expe-uno div p{
     margin: 10px 0px;
     padding: 0;
-    font-size: 0.5em;
+    font-size: 0.75rem;
     text-align: center;
     width: 100%;
     font-weight: 600;
@@ -324,6 +327,7 @@ nav{
     padding-bottom: 20px;
     width: 80%;
     margin: 0;
+    font-size: 1.5rem;
 }
 .trabajo{
     display: flex;
@@ -335,7 +339,7 @@ nav{
 }
 .fecha{
     width: 25%;
-    font-size: 0.5em;
+    font-size: 0.75rem;
     margin: 0;
     font-weight: bold;
 }
@@ -346,11 +350,11 @@ nav{
 }
 .nombre-empresa h5{
     margin: 0;
-    font-size: 0.8em;
+    font-size: 1.2rem;
 }
 .nombre-empresa p{
     margin: 0;
-    font-size: 0.5em;
+    font-size: 0.8rem;
 }
 .img-color{
     display: flex;
@@ -385,6 +389,7 @@ nav{
     width: 90%;
     margin: 5px;
     padding-bottom: 25px;
+    font-size: 2rem;
 }
 .title{
     border-top: 2px solid black;
@@ -396,6 +401,7 @@ nav{
 .title h4{
     margin: 0;
     width: 80%;
+    font-size: 1.2rem;
 }
 .title a{
     display: flex;
@@ -418,7 +424,7 @@ nav{
     margin: 5px 0px;
     margin-bottom: 20px;
     width: 90%;
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 .proyectos img{
     width: 70%;
@@ -477,12 +483,12 @@ footer{
     text-decoration: none;
 }
 .email a p{
-    font-size: 0.5em;
+    font-size: 0.85rem;
     color: black;
     margin: 3px 0px;
 }
 .email a .correo{
-    font-size: 0.5em;
+    font-size: 0.7em;
     font-weight: bold;
 }
 
@@ -502,7 +508,7 @@ footer{
     border-top: 1px solid black;
 }
 .copyright p{
-    font-size: 0.35em;
+    font-size: 0.7em;
     padding: 10px;
     margin: 0;
 }
